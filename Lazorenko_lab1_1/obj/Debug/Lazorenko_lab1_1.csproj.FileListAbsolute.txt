@@ -1,0 +1,10 @@
+C:\Lazorenko\Lab1\Lazorenko_lab1_1\bin\Debug\Lazorenko_lab1_1.exe.config
+C:\Lazorenko\Lab1\Lazorenko_lab1_1\bin\Debug\Lazorenko_lab1_1.exe
+C:\Lazorenko\Lab1\Lazorenko_lab1_1\bin\Debug\Lazorenko_lab1_1.pdb
+C:\Lazorenko\Lab1\Lazorenko_lab1_1\obj\Debug\Lazorenko_lab1_1.csproj.AssemblyReference.cache
+C:\Lazorenko\Lab1\Lazorenko_lab1_1\obj\Debug\Lazorenko_lab1_1.Form1.resources
+C:\Lazorenko\Lab1\Lazorenko_lab1_1\obj\Debug\Lazorenko_lab1_1.Properties.Resources.resources
+C:\Lazorenko\Lab1\Lazorenko_lab1_1\obj\Debug\Lazorenko_lab1_1.csproj.GenerateResource.cache
+C:\Lazorenko\Lab1\Lazorenko_lab1_1\obj\Debug\Lazorenko_lab1_1.csproj.CoreCompileInputs.cache
+C:\Lazorenko\Lab1\Lazorenko_lab1_1\obj\Debug\Lazorenko_lab1_1.exe
+C:\Lazorenko\Lab1\Lazorenko_lab1_1\obj\Debug\Lazorenko_lab1_1.pdb

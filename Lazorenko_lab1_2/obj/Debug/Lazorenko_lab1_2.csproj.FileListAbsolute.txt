@@ -1,0 +1,15 @@
+C:\Lazorenko\Lab1\Lazorenko_lab1_2\bin\Debug\Lazorenko_lab1_2.exe.config
+C:\Lazorenko\Lab1\Lazorenko_lab1_2\bin\Debug\Lazorenko_lab1_2.exe
+C:\Lazorenko\Lab1\Lazorenko_lab1_2\bin\Debug\Lazorenko_lab1_2.pdb
+C:\Lazorenko\Lab1\Lazorenko_lab1_2\obj\Debug\Lazorenko_lab1_2.csproj.AssemblyReference.cache
+C:\Lazorenko\Lab1\Lazorenko_lab1_2\obj\Debug\MainWindow.g.cs
+C:\Lazorenko\Lab1\Lazorenko_lab1_2\obj\Debug\App.g.cs
+C:\Lazorenko\Lab1\Lazorenko_lab1_2\obj\Debug\Lazorenko_lab1_2_MarkupCompile.cache
+C:\Lazorenko\Lab1\Lazorenko_lab1_2\obj\Debug\Lazorenko_lab1_2_MarkupCompile.lref
+C:\Lazorenko\Lab1\Lazorenko_lab1_2\obj\Debug\MainWindow.baml
+C:\Lazorenko\Lab1\Lazorenko_lab1_2\obj\Debug\Lazorenko_lab1_2.g.resources
+C:\Lazorenko\Lab1\Lazorenko_lab1_2\obj\Debug\Lazorenko_lab1_2.Properties.Resources.resources
+C:\Lazorenko\Lab1\Lazorenko_lab1_2\obj\Debug\Lazorenko_lab1_2.csproj.GenerateResource.cache
+C:\Lazorenko\Lab1\Lazorenko_lab1_2\obj\Debug\Lazorenko_lab1_2.csproj.CoreCompileInputs.cache
+C:\Lazorenko\Lab1\Lazorenko_lab1_2\obj\Debug\Lazorenko_lab1_2.exe
+C:\Lazorenko\Lab1\Lazorenko_lab1_2\obj\Debug\Lazorenko_lab1_2.pdb
