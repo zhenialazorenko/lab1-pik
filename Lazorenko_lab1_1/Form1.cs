@@ -16,10 +16,10 @@ namespace Lazorenko_lab1_1
         string currentFile = "";
         private void Form1_Load(object sender, EventArgs e)
         {
-            comboBox1.Items.Add("New");
-            comboBox1.Items.Add("Open");
-            comboBox1.Items.Add("Save");
-            comboBox1.Items.Add("Exit");
+            cmbActions.Items.Add("New");
+            cmbActions.Items.Add("Open");
+            cmbActions.Items.Add("Save");
+            cmbActions.Items.Add("Exit");
         }
 
         public Form1()
@@ -28,13 +28,13 @@ namespace Lazorenko_lab1_1
             this.Load += Form1_Load;
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private void btnExecute_Click(object sender, EventArgs e)
         {
-            string action = comboBox1.SelectedItem?.ToString();
+            string action = cmbActions.SelectedItem?.ToString();
 
             if (action == "New")
             {
-                textBox1.Clear();
+                txtDocument.Clear();
                 currentFile = "";
             }
             else if (action == "Open")
@@ -42,7 +42,7 @@ namespace Lazorenko_lab1_1
                 OpenFileDialog ofd = new OpenFileDialog();
                 if (ofd.ShowDialog() == DialogResult.OK)
                 {
-                    textBox1.Text = File.ReadAllText(ofd.FileName);
+                    txtDocument.Text = File.ReadAllText(ofd.FileName);
                     currentFile = ofd.FileName;
                 }
             }
@@ -51,21 +51,20 @@ namespace Lazorenko_lab1_1
                 if (currentFile == "")
                 {
                     SaveFileDialog sfd = new SaveFileDialog();
-                    sfd.Filter = "Text Files (*.txt)|*.txt";   
-                    sfd.DefaultExt = "txt";                    
-                    sfd.AddExtension = true;                   
+                    sfd.Filter = "Text Files (*.txt)|*.txt";
+                    sfd.DefaultExt = "txt";
+                    sfd.AddExtension = true;
 
                     if (sfd.ShowDialog() == DialogResult.OK)
                         currentFile = sfd.FileName;
                 }
 
-                File.WriteAllText(currentFile, textBox1.Text);
+                File.WriteAllText(currentFile, txtDocument.Text);
             }
             else if (action == "Exit")
             {
                 Application.Exit();
             }
         }
-
     }
 }

@@ -12,12 +12,12 @@ namespace Lazorenko_lab1_2
         public MainWindow()
         {
             InitializeComponent();
-            Editor.IsEnabled = true; // дозволяємо вводити текст
+            txtDocument.IsEnabled = true; // дозволяємо вводити текст
         }
 
-        private void Button_Click(object sender, RoutedEventArgs e)
+        private void btnExecute_Click(object sender, RoutedEventArgs e)
         {
-            string action = (ActionBox.SelectedItem as ComboBoxItem)?.Content.ToString();
+            string action = (cmbActions.SelectedItem as ComboBoxItem)?.Content.ToString();
 
             if (string.IsNullOrEmpty(action))
             {
@@ -27,7 +27,7 @@ namespace Lazorenko_lab1_2
 
             if (action == "New")
             {
-                Editor.Clear();
+                txtDocument.Clear();
                 currentFile = "";
             }
             else if (action == "Open")
@@ -36,7 +36,7 @@ namespace Lazorenko_lab1_2
                 ofd.Filter = "Text Files (*.txt)|*.txt";
                 if (ofd.ShowDialog() == true)
                 {
-                    Editor.Text = File.ReadAllText(ofd.FileName);
+                    txtDocument.Text = File.ReadAllText(ofd.FileName);
                     currentFile = ofd.FileName;
                 }
             }
@@ -55,11 +55,11 @@ namespace Lazorenko_lab1_2
                         return; // натиснули скасувати
                 }
 
-                File.WriteAllText(currentFile, Editor.Text);
+                File.WriteAllText(currentFile, txtDocument.Text);
             }
             else if (action == "Exit")
             {
-                this.Close(); // закриваємо вікно
+                this.Close();
             }
         }
     }
